@@ -9,7 +9,13 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Spabhu-DevOps-Project/College-Event-Website.git'
+                git 'https://github.com/Supremecoder88/23BCE7564-DevOps-Project.git'
+            }
+        }
+
+        stage('Maven Validate') {
+            steps {
+                sh 'mvn validate'
             }
         }
 

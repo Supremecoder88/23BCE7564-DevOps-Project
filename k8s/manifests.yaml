@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: techsymp-container
-        image: techsymp-website:latest
+        image: supremecoder88/techsymp-website:latest
         ports:
         - containerPort: 80
 ---
